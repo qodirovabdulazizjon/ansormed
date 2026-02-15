@@ -54,6 +54,13 @@ body{
   opacity: 0.6;
 }
 
+.site-logo-footer{
+  color: #fff;
+}
+.site-logo-footer:active{
+  color: #fff;
+}
+
 .site-logo-img{
   margin-right: 16px;
 }
@@ -94,6 +101,18 @@ body{
   opacity: 0.6;
 }
 
+.sitenav-site-footer .sitenav-link{
+  color: #fff;
+}
+
+.sitenav-site-footer .sitenav-link:hover{
+  color: #de2e54;
+}
+.sitenav-site-footer .sitenav-link:active{
+  color: #fff;
+  opacity: 0.6;
+}
+
 .main-link{
   display: inline-block;
   text-decoration: none;
@@ -118,4 +137,17 @@ body{
   color: #fff;
   opacity: 0.6;
 }
+
+/* Site footer */
+.site-footer{
+  padding: 24px 0;
+  background-color: #222;
+}
+
+.site-footer-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 
