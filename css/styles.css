@@ -13,9 +13,109 @@ body{
   color: #444;
 }
 
+*:focus{
+  outline: 2px dotted #de2e54;
+  outline-offset: 3px;
+}
+
 .container{
   width: 100%;
   max-width: 1160px;
   padding: 0 30px;
   margin: 0 auto;
 }
+
+/* Header */
+.site-header{
+  padding: 24px 0;
+}
+
+.site-header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-logo{
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  color: #222;
+  font-size: 24px;
+  font-weight: 600;
+  transition: color 0.4s ease,
+  opacity 0.4s ease;
+}
+
+.site-logo:hover{
+  color: #de2e54;
+}
+.site-logo:active{
+  opacity: 0.6;
+}
+
+.site-logo-img{
+  margin-right: 16px;
+}
+
+/* Sitena list */
+
+.sitenav{
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.sitenav-list{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.sitenav-item:not(:last-child){
+  margin-right: 32px;
+}
+
+.sitenav-link{
+  display: block;
+  color: #222;
+  text-decoration: none;
+  
+}
+
+.sitenav-link:hover{
+  color: #de2e54;
+}
+.sitenav-link:active{
+  opacity: 0.6;
+}
+
+.main-link{
+  display: inline-block;
+  text-decoration: none;
+  background-color: #de2e54;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  border-radius: 8px;
+  letter-spacing: 2px;
+  padding: 10px 22px;
+  border: 2px solid #de2e54;
+  font-weight: bold;
+}
+
+.main-link:hover{
+  background-color: #fff;
+  color: #de2e54;
+  /* border-color: #de2e54; */
+}
+.main-link:active{
+  background-color: #de2e54;
+  color: #fff;
+  opacity: 0.6;
+}
+
