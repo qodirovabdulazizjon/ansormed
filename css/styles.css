@@ -132,16 +132,60 @@ body{
   color: #de2e54;
   /* border-color: #de2e54; */
 }
+
+.main-link-solid:hover{
+  border-color: transparent;
+  background-color: rgba(222, 46, 84, 0.8);
+  color: #fff;
+}
+.main-link-solid:active{
+  background-color: rgba(222, 46, 84, 0.6);
+  opacity: 1;
+}
+
 .main-link:active{
   background-color: #de2e54;
   color: #fff;
   opacity: 0.6;
 }
 
+/* Hero */
+.hero{
+  background-color: #0eb4c1;
+  color: #fff;
+}
+.hero-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-content {
+  padding: 120px 0;
+  width: 500px;
+}
+
+.hero-heading{
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.hero-text{
+  width: 440px;
+  margin-top: 0;
+  margin-bottom: 36px;
+}
+
+.hero-img{
+  align-self: flex-end;
+}
+
 /* Site footer */
 .site-footer{
   padding: 24px 0;
   background-color: #222;
+  color: #fff;
 }
 
 .site-footer-container{
