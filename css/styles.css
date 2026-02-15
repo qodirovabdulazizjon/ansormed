@@ -13,6 +13,10 @@ body{
   color: #444;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 *:focus{
   outline: 2px dotted #de2e54;
   outline-offset: 3px;
@@ -138,15 +142,27 @@ body{
   background-color: rgba(222, 46, 84, 0.8);
   color: #fff;
 }
-.main-link-solid:active{
-  background-color: rgba(222, 46, 84, 0.6);
-  opacity: 1;
-}
 
 .main-link:active{
   background-color: #de2e54;
   color: #fff;
   opacity: 0.6;
+}
+
+.main-link-solid:active{
+  background-color: rgba(222, 46, 84, 0.6);
+  opacity: 1;
+}
+
+.main-link-outline{
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+.main-link-outline:hover{
+  background-color: #de2e54;
+  border-color: transparent;
+  color: #fff;
 }
 
 /* Hero */
@@ -240,6 +256,30 @@ body{
   display: flex;
   /* align-items: center; */
   justify-content: center;
+}
+
+/* CTA */
+.cta{
+  padding: 64px 0;
+  background-color: #0eb4c1;
+  color: #fff;
+}
+.cta-heading{
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.cta-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-links-item:not(:last-child){
+  margin-right: 40px;
 }
 
 /* Site footer */
