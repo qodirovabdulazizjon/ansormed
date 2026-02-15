@@ -181,6 +181,67 @@ body{
   align-self: flex-end;
 }
 
+/* Index services */
+.index-services{
+  padding: 120px 0;
+}
+
+.index-services-heading{
+  margin-top: 0;
+  margin-bottom: 56px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.2;
+  color: #222;
+}
+
+.index-services-list{
+  padding: 0;
+  margin: 0;
+  width: 864px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  list-style: none;
+}
+
+.index-services-item:not(:last-child){
+  margin-bottom: 80px;
+}
+
+.index-service{
+  display: flex;
+  align-items: center;
+}
+
+.index-service-img{
+  width: 200px;
+  height: 200px;
+  margin-right: 64px;
+  border-radius: 24px;
+  box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.3);
+  object-fit: cover;
+}
+
+.index-services-content{
+  width: 600px;
+}
+
+.index-service-title{
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #222;
+}
+
+.index-service-description{
+  margin: 0;
+}
+
+.index-services-actions{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
 /* Site footer */
 .site-footer{
   padding: 24px 0;
